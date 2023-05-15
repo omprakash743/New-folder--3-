@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_Valid_URL__c</fullName>
+    <description>Compare website and account site</description>
+    <externalId>false</externalId>
+    <formula>IF( Site  = Website , TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>is Valid URL</label>
+    <type>Checkbox</type>
+</CustomField>

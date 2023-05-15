@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_wedsite</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK( Website )</errorConditionFormula>
+    <errorDisplayField>Website</errorDisplayField>
+    <errorMessage>pls add web</errorMessage>
+</ValidationRule>
